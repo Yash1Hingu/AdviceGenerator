@@ -15,12 +15,16 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      margin-top: 30px;
     }
 
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,9 +32,10 @@
 
   <main>
     <div class="container">
-      <p>#<span id="adviceID"></span></p>
+      <p class="adviceid">Advice #<span id="adviceID"></span></p>
       <p id="quote"></p>
-      <button id="generatebtn" onclick="logJSONdata()">G</button>
+      <div><img src="images/pattern-divider-desktop.svg" alt=""></div>
+      <button id="generatebtn" onclick="logJSONdata()"><img src="images/icon-dice.svg" alt=""></button>
     </div>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
