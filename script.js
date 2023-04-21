@@ -20,3 +20,5 @@ function updateData(advice,id){
     adviceID.innerHTML = id;
     advicequote.textContent = "\" "+ advice + "\""
 }
+
+logJSONdata();
