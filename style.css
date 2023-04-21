@@ -24,6 +24,7 @@ main{
     font-family: 'Manrope', sans-serif;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 4px 4px 20px 0px hsl(219, 18%, 10%);
 }
 
 .container .adviceid{
